@@ -14,7 +14,7 @@ public final class Sistema {
 	public void encheSistema() {
 
 		criarConsultorio("Consultorio1", "123456");
-		criarLoginMedico(consultorios.get(0),"Dr. Joao De Moraes", "123456", "21999999999","senha");
+		criarLoginMedico(consultorios.get(0),"Dr. Joao", "123456", "21999999999","senha");
 		criarLoginMedico(consultorios.get(0),"Dr. Almeida Dias", "123456", "21999999999","senha");
 		DataHora data1 = new DataHora(12,10,2021,15,30);
 		DataHora data2 = new DataHora(11,10,2021,10,00);
